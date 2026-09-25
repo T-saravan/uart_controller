@@ -1,6 +1,7 @@
 # Synthesizable UART Controller in Verilog
 
 A parameterized, synthesizable Universal Asynchronous Receiver/Transmitter (UART) core designed in Verilog HDL.
+Verilog UART core: 16x oversampling receiver, FSM transmitter, parameterized baud generator, and loopback verification.
 
 ## Architecture
 - **Baud Rate Generator (`rtl/baud_gen.v`)**: Configurable clock divider producing a 16x oversampling clock tick.
